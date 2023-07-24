@@ -1,0 +1,18 @@
+alt-title: Locations
+color: #c4f7ff
+created: 20220817182350342
+modified: 20230721233208081
+title: locations
+type: text/vnd.tiddlywiki
+
+<<thumb "maps/Western Gradia.jpg" left 400>>
+
+<<<
+//“The land of Gradia is massive, and no one map can hold its vastness. But there are many stories of lands beyond the civilized world… Barbarian hordes, firey mountains, eternal forests, and oceans of sand. Sit a while, and listen. I shall spin you many tales of the greatest lands under the sky…”//
+
+-Rogan Clearwater
+<<<
+
+<<list-links filter:"[tag[locations]]">>
+
+<br clear="all">

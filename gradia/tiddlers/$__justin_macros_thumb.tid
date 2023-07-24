@@ -1,0 +1,12 @@
+created: 20220807020824552
+creator: justinian
+modified: 20220807021928995
+modifier: justinian
+tags: $:/tags/Macro
+title: $:/justin/macros/thumb
+
+\define thumb(img, float, width:"200", class:"")
+<$link to="$img$">
+[img width="$width$" class="$class$ thumbnail-$float$" [$img$]]
+</$link>
+\end

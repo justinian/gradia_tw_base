@@ -1,0 +1,16 @@
+created: 20220713043438005
+creator: Author
+modified: 20220714061437837
+modifier: Author
+tags: 
+title: $:/PSaT/alternate-title/title
+type: text/vnd.tiddlywiki
+
+\define default-title()
+<$list filter="[all[current]!is[system]]"><$view field="title"/></$list><$list filter="[all[current]is[system]]"><span class="tc-system-title-prefix">$:/</span><$text text={{{ [<currentTiddler>removeprefix[$:/]] }}}/></$list>
+\end
+\whitespace trim
+<$transclude tiddler="$:/PSaT/alternate-title/title-prefix"/>
+<h2 class="tc-title" title={{{[all[current]get[tooltip]] [all[current]get[description]] +[join[ - ]] :else[[No tooltip or description]] }}} >
+<$view field="alt-title"><$view field="caption"><$view field="system-caption"><<default-title>></$view></$view></$view>
+</h2>

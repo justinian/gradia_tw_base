@@ -1,0 +1,10 @@
+created: 20220713043738608
+creator: Author
+list-before: 
+modified: 20220714061705257
+modifier: Author
+tags: $:/tags/ViewTemplateTitleFilter
+title: $:/PSaT/alternate-title/title-filter
+type: text/vnd.tiddlywiki
+
+[all[current]has:field[alt-title]then[$:/PSaT/alternate-title/title]]

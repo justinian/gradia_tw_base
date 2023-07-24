@@ -1,0 +1,19 @@
+created: 20220713044207131
+creator: Author
+description: Created above sub-tiddler
+filename: alternate-title
+modified: 20220713052501264
+modifier: Author
+package-filter: [prefix[$:/PSaT/alternate-title]]
+title: $:/PSaT/alternate-title
+type: text/vnd.tiddlywiki
+
+;Using the [[View template title cascade|$:/core/ui/ControlPanel/ViewTemplateTitle]], if the field alt-title is present on the current tiddler, use that instead.
+* if the field alt-title exists but is empty If attempts to use the caption field, or system-caption field instead and if thay are also empty displays the title as normal.
+* Also works when Display tiddler titles as links is active
+* Will display a tooltip and/or description on hover if available
+* Transcludes [[$:/PSaT/alternate-title/title-prefix]] allowing conditional prefixes 
+* Also works for system tiddlers
+
+;Package-filter tiddlers
+{{{ [subfilter{!!package-filter}] }}}

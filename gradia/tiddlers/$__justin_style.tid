@@ -1,0 +1,20 @@
+created: 20220807020650073
+creator: justinian
+modified: 20220809162526532
+modifier: justinian
+tags: $:/tags/Stylesheet
+title: $:/justin/style
+
+.thumbnail-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.thumbnail-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.thumbnail-none {
+  float: none;
+}

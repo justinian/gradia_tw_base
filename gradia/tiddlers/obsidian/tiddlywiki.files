@@ -1,0 +1,30 @@
+{
+    "directories": [
+        {
+            "path": "../../obsidian",
+            "filesRegExp": ".+\\.md",
+            "isTiddlerFile": false,
+            "isEditableFile": false,
+            "searchSubdirectories": true,
+            "fields": {
+                "title": {"source": "basename-uri-decoded"},
+                "created": {"source": "created"},
+                "modified": {"source": "modified"},
+                "type": "text/x-markdown"
+            }
+        },
+        {
+            "path": "../../obsidian",
+            "filesRegExp": ".+\\.(jpg|jpeg|png|webp)",
+            "isTiddlerFile": false,
+            "isEditableFile": false,
+            "searchSubdirectories": true,
+            "fields": {
+                "title": {"source": "filepath"},
+                "created": {"source": "created"},
+                "modified": {"source": "modified"},
+                "type": "image/jpeg"
+            }
+        }
+  ]
+}
