@@ -1,8 +1,8 @@
 # Gradia TiddlyWiki base files
 
-This is the [TiddlyWiki][] base that I use with [ObsiddlyWiki][] to create the
+This is the [TiddlyWiki][] base that I use with [ObsidlyWiki][] to create the
 wiki at [gradia.org](https://gradia.org)
 
 [TiddlyWiki]: https://www.tiddlywiki.com
-[ObsiddlyWiki]: https://www.github.com/justinian/obsiddlywiki
+[ObsidlyWiki]: https://www.github.com/justinian/obsidlywiki
 
